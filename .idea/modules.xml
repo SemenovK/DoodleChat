@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DoodleChat.iml" filepath="$PROJECT_DIR$/DoodleChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoodleChatClient/DoodleChatClient.iml" filepath="$PROJECT_DIR$/DoodleChatClient/DoodleChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoodleChatServer/DoodleChatServer.iml" filepath="$PROJECT_DIR$/DoodleChatServer/DoodleChatServer.iml" />
+    </modules>
+  </component>
+</project>

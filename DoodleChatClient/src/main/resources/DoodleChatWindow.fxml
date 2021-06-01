@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<VBox spacing="2" fx:controller="com.ksemenov.doodlechat.client.DoodleChatController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+<MenuBar>
+   <Menu text="Chat settings">
+      <MenuItem fx:id="menuConnect" text="Connect" onAction="#connectToServer"/>
+      <MenuItem fx:id="menuAuthorise" text="Authorise" onAction="#authorisationWindowShow"/>
+      <MenuItem text="Quit" onAction="#closeApplication"/>
+   </Menu>
+</MenuBar>
+   <TextArea fx:id="messageList" wrapText="true" editable="false" VBox.vgrow="ALWAYS" focusTraversable="false" />
+   <padding>
+      <Insets top="1" right="2" left="2" bottom="5"/>
+   </padding>
+
+   <HBox spacing="5">
+      <TextField fx:id="messageTf" HBox.hgrow="ALWAYS" prefHeight="25.0" onKeyPressed="#onMessage_tf_KeyPressed" />
+      <Button fx:id="sendBtn" mnemonicParsing="false" text="Send" onKeyPressed="#onSendBtnPress" onAction="#onSendBtnAction" />
+       <padding>
+          <Insets top="5" right="8" left="8" bottom="10"/>
+       </padding>
+
+
+   </HBox>
+
+</VBox>

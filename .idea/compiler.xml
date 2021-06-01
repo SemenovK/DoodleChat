@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DoodleChatServer" />
+        <module name="DoodleChatClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DoodleChat" target="13" />
+      <module name="DoodleChatClient" target="13" />
+      <module name="DoodleChatServer" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

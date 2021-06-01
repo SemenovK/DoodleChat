@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="5" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.ksemenov.doodlechat.client.LoginWindowController"
+      prefHeight="400.0" prefWidth="600.0">
+    <TextField fx:id="loginField" onAction="#onEnterClick" promptText="Login"/>
+    <TextField fx:id="passwordField" onAction="#onEnterClick" promptText="Password"/>
+    <padding>
+        <Insets top="5" right="8" left="8" bottom="10"/>
+    </padding>
+    <HBox alignment="CENTER_RIGHT" spacing="5">
+        <Button text="Enter" fx:id="btnEnter" onAction="#onEnterClick"/>
+        <Button text="Close" fx:id="btnClose" onAction="#onCloseClick"/>
+        <padding>
+            <Insets topRightBottomLeft="5"/>
+        </padding>
+    </HBox>
+</VBox>
