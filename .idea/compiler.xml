@@ -12,8 +12,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DoodleChat" target="13" />
-      <module name="DoodleChatClient" target="13" />
-      <module name="DoodleChatServer" target="13" />
+      <module name="DoodleChatClient" target="16" />
+      <module name="DoodleChatServer" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
