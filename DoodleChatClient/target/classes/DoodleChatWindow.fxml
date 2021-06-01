@@ -18,14 +18,14 @@
       <MenuItem text="Quit" onAction="#closeApplication"/>
    </Menu>
 </MenuBar>
-   <TextArea fx:id="message_list" wrapText="true" editable="false" VBox.vgrow="ALWAYS" focusTraversable="false" />
+   <TextArea fx:id="messageList" wrapText="true" editable="false" VBox.vgrow="ALWAYS" focusTraversable="false" />
    <padding>
       <Insets top="1" right="2" left="2" bottom="5"/>
    </padding>
 
    <HBox spacing="5">
-      <TextField fx:id="message_tf" HBox.hgrow="ALWAYS" prefHeight="25.0"  onKeyPressed="#onMessage_tf_KeyPressed" />
-      <Button fx:id="send_btn"  mnemonicParsing="false" text="Send"  onKeyPressed="#onSendBtnPress" onAction="#onSendBtnAction" />
+      <TextField fx:id="messageTf" HBox.hgrow="ALWAYS" prefHeight="25.0" onKeyPressed="#onMessage_tf_KeyPressed" />
+      <Button fx:id="sendBtn" mnemonicParsing="false" text="Send" onKeyPressed="#onSendBtnPress" onAction="#onSendBtnAction" />
        <padding>
           <Insets top="5" right="8" left="8" bottom="10"/>
        </padding>
